@@ -36,8 +36,8 @@ class TestPanel(bpy.types.Panel):
          
 
 class PanelA(bpy.types.Panel):
-    bl_label = "PanelA"
-    bl_idname = "PT_PanelA"
+    bl_label = "Panel1"
+    bl_idname = "PT_Panel1"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
     bl_category = "My 1st Addon"
@@ -53,8 +53,8 @@ class PanelA(bpy.types.Panel):
         
         
 class PanelB(bpy.types.Panel):
-    bl_label = "PanelB"
-    bl_idname = "PT_PanelB"
+    bl_label = "Panel2"
+    bl_idname = "PT_Panel2"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
     bl_category = "My 1st Addon"
